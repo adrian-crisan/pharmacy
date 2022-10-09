@@ -24,4 +24,5 @@ public class AdminController {
     public void setUserClaims(@PathVariable String uid, @RequestBody List<Permission> requestedClaims) throws FirebaseAuthException {
         userManagementService.setUserClaims(uid, requestedClaims);
     }
+
 }
